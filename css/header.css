@@ -1,0 +1,95 @@
+.navbar {
+  Width: 1440px;
+  Height: 72px;
+  border-bottom: 1px solid #E5E9F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-menu {
+  margin: auto 80px;
+  width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-menu-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #18191F;
+}
+
+.navbar-menu-item:hover {
+  color: #2296F9;
+}
+
+.logoipsum-href {
+  margin: auto 0;
+  width: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logoipsum-href .tooth {
+  width: 30px;
+}
+
+.logoipsum-href .logoipsum {
+  width: 105px;
+}
+
+.social {
+  margin: 20px 135px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 170px;
+}
+
+.social-link {
+  display: block;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.social-item {
+  height: 32px;
+  width: 32px;
+  background: rgba(128, 202, 255, 0.1);
+  border-radius: 50%;
+}
+/*# sourceMappingURL=header.css.map */

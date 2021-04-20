@@ -1,0 +1,173 @@
+.doctor {
+  color: #2296F9;
+}
+
+.our-doctors {
+  margin: 0 auto;
+  width: 1140px;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-doctors-text {
+  margin: auto 0;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  width: 571px;
+}
+
+.our-doctors-text-title {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 64px;
+}
+
+.our-doctors-head {
+  height: 148px;
+  background: #0096FF;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.our-doctors-head-title {
+  padding-top: 45px;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.our-doctors-head-path {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #222222;
+}
+
+.our-doctors-title {
+  margin-top: 60px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 64px;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #18191F;
+  /* margin-bottom: 40px; */
+}
+
+.our-doctors-cards {
+  margin: 0 auto;
+  width: 1280px;
+  /* height: 585px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.our-doctors-card {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  Width: 273px;
+  Height: 438px;
+}
+
+.our-doctors-card-name {
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.376923px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+.our-doctors-card-post {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.376923px;
+  text-transform: uppercase;
+  color: #0096FF;
+}
+
+.our-doctors-card-social {
+  margin: 5px auto;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-doctors-pagination {
+  width: 260px;
+  margin: 60px 135px 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* align-items: flex-end; */
+  float: right;
+}
+
+.our-doctors-pagination-item {
+  display: block;
+  width: 45px;
+  height: 35px;
+  background: #F6F6F6;
+  color: #BBBBBB;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding-top: 10px;
+  fill: #0096FF;
+}
+
+.our-doctors-pagination-item:hover {
+  background: #0096FF;
+  color: #FFFFFF;
+  stroke: #FFFFFF;
+}
+
+.active {
+  background: #0096FF;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=our-doctors.css.map */

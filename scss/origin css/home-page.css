@@ -1,0 +1,345 @@
+.home-heder{
+    height: 670px;
+    background-image: url(../img/jpg/home-heder-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.home-heder-content{
+    height: 295px;
+    width: 540px;
+    margin: auto 0;
+    margin-left: 135px;
+}
+
+.home-heder-content-head{
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.376923px;
+    color: #0096FF;
+}
+
+.home-heder-content-title{
+    margin: 20px 0;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.home-heder-content-link{
+    margin-top: 15px;
+    padding: 17px 32px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;    
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    display: block;
+    width: 248px;
+    background: #0096FF;
+    border-radius: 10px;
+}
+
+.home-coll-us{
+    background: #F0F6FB;
+    padding: 57px 0;
+    font-size: 29px;
+    line-height: 33px;
+    text-align: center;
+    color: #0096FF;
+    display: block;
+}
+
+.home-service{
+    padding-top: 72px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1170px;
+    height: 181px;
+    font-family: Helvetica;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.home-service-item{
+    width: 253px;
+    height: 181px;
+    background: #0096FF;
+    border-radius: 20px;
+
+}
+
+.home-service-item-img{
+    margin-top: 21px;
+    margin-left: 117px;
+}
+
+.home-service-item-title{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+
+.home-service-item-description{
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 133.5%;
+    width: 220px;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+
+.home-recommendation{
+    height: 601px;
+    background-image: url(../img/jpg/recommendation.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-recommendation-content{
+    padding-top: 67px;
+    margin-left: 766px;
+}
+
+.home-recommendation-content-item{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0096FF;
+}
+
+.home-recommendation-content-head{
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: -0.376923px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.home-recommendation-content-item-description{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 19px;   
+    color: #000000;
+}
+
+.home-services{
+    color: #000000;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.home-services-head{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 64px;    
+    text-align: center;
+}
+
+.home-services-head p{
+    font-weight: normal;
+}
+
+.home-services-offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1171px;
+    margin: 0 auto;
+}
+
+.home-services-offer-card{
+    margin-top: 85px;
+    width: 30%;
+    font-feature-settings: 'liga' off;
+}
+
+.home-services-offer-card-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;    
+}
+
+.home-services-offer-card-description{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.home-services-offer-card-link{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;  
+    color: #0096FF;
+}
+
+.home-services-link{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-feature-settings: 'liga' off;  
+    color: #000000;
+}
+
+.home-our-doctors{
+    margin-bottom: 110px;
+}
+
+.home-our-doctors-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 64px;
+    font-feature-settings: 'liga' off; 
+    color: #18191F;
+    margin-bottom: 40px;
+}
+
+.home-our-doctors-cards{
+    margin: 0 auto;
+    width: 1280px;
+    /* height: 585px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.home-our-doctors-card{
+    Width: 273px;
+    Height: 438px;
+}
+
+.home-our-doctors-card-name{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.376923px;
+    text-transform: uppercase;   
+    color: #000000;
+    text-align: center;
+}
+
+.home-our-doctors-card-post{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.376923px;
+    text-transform: uppercase;  
+    color: #0096FF;
+}
+
+.home-our-doctors-card-social{
+    margin: 5px auto;
+    width: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-blog{
+    height: 700px;
+}
+
+.home-blog-head{
+    margin-top: 80px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #000000;
+}
+
+.home-blog-description{
+    margin: 0 auto;
+    width: 520px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;    
+    text-align: center;
+    font-feature-settings: 'liga' off; 
+    color: #18191F;
+}
+
+.home-blog-cards{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-blog-card{
+    margin-top: 50px;
+    width: 355px;
+}
+
+.home-blog-card-sub-info{
+    margin-top: 15px;
+    width: 264px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-blog-card-item{
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 22px;
+    border-right: 1px solid #EEEEEE;
+    /* margin: 0 auto; */
+    color: #999999;
+}
+
+.author{
+    Width: 67px;
+    color: #2296F9;
+}
+
+.data{
+    Width: 67px;
+}
+
+.comments{
+    width: 40px;
+}
+
+.like{
+    width: 30px;
+    border-right: none;
+}
+
+.home-blog-card-head{
+    margin-top: 10px;
+    width: 355px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.home-blog-card-content{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+}
